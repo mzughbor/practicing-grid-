@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Dojonary</h1>
+        <search>
+            <form action="#" class="search-form">
+                <input name="search-input" type="text" placeholder="Search">
+            </form>
+        </search>
+        <button class="login-btn" onclick="login(this)">Log in</button>
+    </header>
+    <section class="main-section">
+        <article>
+            <div class="word-itself">
+                <h1>ningi</h1>
+                <h3><i>noun</i></h3>
+                <p>Plural: <i>ninjas</i></p>
+                <button class="like-btn" onclick="like()">13 Likes</button>
+            </div>
+            <div class="word-definition">
+                <p>A paractitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjusta</a></p>
+            </div>            
+        </article>
+        <article>
+            <div class="word-itself">
+                <h1>ningi</h1>
+                <h3><i>noun</i></h3>
+                <p>Plural: <i>ninjas</i></p>
+                <button class="like-btn" onclick="like()">37 Likes</button>
+            </div>
+            <div class="word-definition">
+                <p>A <a href="#">programmer</a> who breaks down problem with <a href="#">zen</a>-like focus</p>
+            </div>            
+        </article>
+    </section>
+    <aside class="aside-section">
+        <article>
+            <h2>Dojonary is Defined by <b>YOU</b></h2>
+            <button class="definition-btn" onclick="add_definition(this)">Add Definistion</button>
+        </article>
+    </aside>
+</body>
+
+</html>
